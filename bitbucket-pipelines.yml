@@ -1,0 +1,10 @@
+image: python:3.10
+
+pipelines:
+  default:
+    - step:
+        name: Run Tests
+        script:
+          - pip install pytest
+          - pytest
+
