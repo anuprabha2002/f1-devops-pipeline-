@@ -14,4 +14,11 @@ jobs:
 
     - name: Run Python app
       run: ./run.sh
+    - name: Notify on success
+      if: success()
+      run: echo "Pipeline succeeded! ✅"
+
+    - name: Notify on failure
+      if: failure()
+      run: echo "Pipeline failed! ❌"
 
