@@ -1,1 +1,6 @@
-print('Hello DevOps')
+def main():
+    return "Hello DevOps"
+
+if __name__ == "__main__":
+    print(main())
+
