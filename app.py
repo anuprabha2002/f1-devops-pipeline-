@@ -1,5 +1,5 @@
 def main():
-    return "Hello DevOps"
+    return "Broken text"
 
 
 if __name__ == "__main__":
